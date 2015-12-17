@@ -30,6 +30,7 @@ public class AppTest
      */
     public static Test suite()
     {
+        System.out.print("Test Started");
         return new TestSuite( AppTest.class );
     }
 
