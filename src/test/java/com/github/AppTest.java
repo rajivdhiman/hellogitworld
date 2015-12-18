@@ -22,6 +22,7 @@ public class AppTest
      */
     public AppTest( String testName )
     {
+        System.out.print("Test Started");
         super( testName );
     }
 
@@ -39,6 +40,7 @@ public class AppTest
      */
     public void testApp()
     {
+        System.out.print("Test Started");
         assertTrue( true );
     }
 }
